@@ -13,6 +13,10 @@ import io.github.erictanggit.model.DescriptionAnonymizationRules;
 import io.github.erictanggit.model.DescriptionCSV;
 import io.github.erictanggit.model.DescriptionRules;
 
+/**
+Nous vous avons fourni un exemple de fichier csv appelé input.csv. Une fois cette classe lancée sera généré dans le repertoire results deux fichiers:
+Le premier est input_anonimize.csv qui est l'output après application des règles d'anonymisations et le deuxième est input_verifdata.csv qui est l'output après application des règles de vérifications.
+*/
 public class App {
 	public static void main(String[] args) {
 		DescriptionCSV[] TypeCsvData = DescriptionCSV[].class
