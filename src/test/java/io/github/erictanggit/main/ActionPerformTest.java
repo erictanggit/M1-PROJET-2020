@@ -35,7 +35,7 @@ public class ActionPerformTest {
 	private String[] header = new String[1];
 	private String[] row = new String[1];
 	private List<String[]> myCsv = new ArrayList<>();
-	private static final Path FOLDER_TEST = Paths.get("src", "main", "resources");
+	private static final Path FOLDER_TEST = Paths.get("src", "main", "resources","results");
 
 	public ActionPerformTest() {
 		typeCsvData[0] = new DescriptionCSV("email", Type.STRING);
